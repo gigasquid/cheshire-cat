@@ -1,6 +1,6 @@
 # cheshire-cat
 
-FIXME
+Example in Living Clojure
 
 ## Prerequisites
 
