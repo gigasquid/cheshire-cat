@@ -1,7 +1,7 @@
-(ns cheshire-cat.core.handler-test
+(ns cheshire-cat.handler-test
   (:require [clojure.test :refer :all]
             [ring.mock.request :as mock]
-            [cheshire-cat.core.handler :refer :all]))
+            [cheshire-cat.handler :refer :all]))
 
 (deftest test-app
   (testing "main route"

@@ -12,7 +12,7 @@
                  [enfocus "2.1.0"]]
   :plugins [[lein-ring "0.8.13"]
             [lein-cljsbuild "1.0.3"]]
-  :ring {:handler cheshire-cat.core.handler/app}
+  :ring {:handler cheshire-cat.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring-mock "0.1.5"]]}}

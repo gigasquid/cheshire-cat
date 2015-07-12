@@ -23,4 +23,4 @@
                           (ef/content (:status body))
                           (ef/set-style :font-size "500%")))
         (ef/at "#button1" (ev/listen :click
-                                     (fn [] (say-goodbye)))))))
+                                     #(say-goodbye))))))
